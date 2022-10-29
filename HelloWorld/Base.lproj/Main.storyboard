@@ -32,6 +32,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Show Greeting"/>
+                                <connections>
+                                    <action selector="greetingButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="LbL-LH-Kos"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,6 +47,10 @@
                             <constraint firstItem="wDP-Z4-1Qc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="soi-27-Opq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greetingButton" destination="a6i-HT-nyd" id="IVZ-g9-IA6"/>
+                        <outlet property="greetingLabel" destination="wDP-Z4-1Qc" id="DB9-VS-nF6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
