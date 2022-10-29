@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HelloWorld
 //
-//  Created by Дмитрий Поляков on 27.10.2022.
+//  Created by Dmitry Polyakov on 27.10.2022.
 //
 
 import UIKit
